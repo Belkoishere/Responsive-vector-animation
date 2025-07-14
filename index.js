@@ -11,7 +11,7 @@ function updatePath() {
     const rect = svg.getBoundingClientRect();
     const svg_height = rect.height;
     const svg_width = rect.width;
-    //subtract constant value from svg width and height not window height so that space beteen video and svg path is uniform
+    //subtract constant value from width and height so that space beteen video and svg path is uniform
     const video_width = svg_width-200;
     const video_height = svg_height-200;
     
